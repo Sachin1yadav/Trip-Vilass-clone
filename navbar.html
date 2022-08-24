@@ -5,8 +5,398 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <script    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous">
+          </script> -->
+          <link rel="stylesheet" href="landing.css">
+          <script type="text/javascript" src="https://kit.fontawesome.com/24c494a6b6.js"
+          crossorigin="anonymous">
+          function show(){
+            for(let i=0; i<5; i++){
+                document.getElementById("c1").style.borderBlockColor="red"
+            }
+          }
+           
+
+
+        
+        </script>
+          
+       
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         #nav{
+            /* border: 1px solid red; */
+            width: 100%;
+            height: 55px;
+           display: flex;
+           
+         background-color: rgb(38,38,38);
+        justify-content: space-between;
+         
+
+         }
+         #end{
+            width: 10%;
+            height: 55px;
+            /* border: 2px solid rgb(252, 237, 237); */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content: center;
+            align-items: center;
+         }
+         
+         
+          img{
+             width:150px;
+             margin: 15px;
+             height: 25.7px;
+               align-items: center;
+            }
+             #mid {
+                /* border: 1px solid red; */
+                 width: 100vw;
+                 height: 425px;
+                 /* position: relative;
+                background-image: url('https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg');
+                 */
+             }
+           #mid>div{
+            background-image: url('https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg');
+        width: 100%;
+        height: 100%;  
+        filter: brightness(50%);
+        }
+        #mid>div>h1{
+            color: white;
+        }
+          #tpd{
+            font-size: 22.25px;
+            font-weight: 300;
+            line-height: 31.5px;
+            text-decoration: none solid rgb(0,0,0 );
+            height: 31px;
+            width: 90%;
+            margin: auto;
+            margin: 0px,0xp,20px,0px;
+            display: block;
+            font-family: ProximaNovaLight, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            letter-spacing: normal;
+        text-align: start;  
+        
+        margin-top: 40px;
+        }
+        #slmid{
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    
+        .chlid{
+            width: 20%;
+            height: 90%;
+            margin-left: 10px;
+            margin-right: 10px;
+            justify-content: center;
+            align-items: center;
+            /* display: none; */
+         
+           
+        }
+        .chlid img{
+            width: 200px;
+            height: 150px;
+            margin-left: -0px;
+            margin-top: -0px;
+             
+        }
+        #leftsl,#rgtsl{
+            margin-left: 8px;
+            width: 2%;
+            display: inline-block;
+            align-items: center;
+
+        }
+        #rgtsl button,#leftsl button{
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        
+    </style>
 </head>
-<body>
-    there will be navbar
+<body onload="show()">
+    <div id="nav">
+        <div ><img src="https://d2v8elt324ukrb.cloudfront.net/static/riotuikit/images/logo.c72056a22f91.png" alt=""></div>
+        <div id="end">
+            <div id="us" onclick="topup()"><i class="fa-solid fa-user"></i></div>
+            <div>
+                <select name="" id="lo">
+                    <option value="">AED</option>
+                    <option value="">AUB</option>
+                    <option value="">BRL</option>
+                    <option value="">CAD</option>
+                    <option value="">CZK</option>
+                    <option value="">DKK</option>
+                    <option value="">EUR</option>
+                    <option value="">GBP</option>
+                    <option value="">HKD</option>
+                    <option value="">HUF</option>
+                    <option value="">ILS</option>
+                    <option value="">INR</option>
+                    <option value="">JPY</option>
+                    <option value="">MXN</option>
+                    <option value="">NOK</option>
+                    <option value="">NZD</option>
+                    <option value="">PHP</option>
+                    <option value="">PLN</option>
+                    <option value="">SEK</option>
+                    <option value="">SGD</option>
+                    <option value="">THB</option>
+                    <option value="">TRY</option>
+                    <option value="">TWD</option>
+                    <option value="">USD</option>
+                </select>
+            </div>
+            <div style="color: white"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </div>
+     <div id="mid">
+          <div >
+            <h1>Book Hotels Vacation Rentals
+                Top Holiday Homes - Villas, Apartments & Homestays</h1>
+          </div>
+         
+        
+    </div>
+    <div id="tpd"><p >Top Destinations</p></div>
+    <div id="slmid" >
+         
+         <div id="leftsl" onclick="movleft()"> <button>&lt;</button></div>
+        <div  id="c1" class="chlid" >
+            <img src="2.png" alt="">
+        </div>
+        <div class="chlid" id="c2">
+            <img src="2.png" alt="">
+        </div>
+        <div class="chlid" id="c3">
+            <img src="2.png" alt="">
+        </div>
+        <div class="chlid" id="c4">
+            <img src="2.png" alt="">
+        </div>
+        <div class="chlid" id="c5">
+            <img src="2.png" alt="">
+        </div>
+        <!-- <div class="chlid" id="c6">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+        <div class="chlid" id="c7">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+        <div class="chlid" id="c8">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+        <div class="chlid" id="c9">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+        <div class="chlid" id="c10">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+
+        <div class="chlid" id="c11">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+        <div class="chlid" id="c12">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+        <div class="chlid" id="c13">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+        <div class="chlid" id="c14">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div>
+        <div class="chlid" id="c15">
+            <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+        </div> -->
+            <div id="rgtsl" onclick="movrgt()"><button>&gt;</button></div>
+        
+            </div>
+
+<div id="data">
+    <div id="data1">
+        <div id="hh"> <p>Fully Managed Communities By Tripvillas</p> </div>
+        <div id="d2">
+            <div>
+                <img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/housekeeper.svg" alt="">
+            <p>High Quality housekeeping</p>
+            </div>
+            <div>
+                <img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/towel.svg" alt="">
+            <p>Comfortable Linen and Toiletries</p>
+            </div>
+            <div>
+                <img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/bed.svg" alt="">
+            <p>Quality Furniture & Fittings</p>
+            </div>
+            <div>
+                <img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/dinner.svg" alt="">
+            <p>Food Delivery Or Central Restaurant
+            </p>
+            </div>
+        </div>
+        
+    </div>
+    <div id="data2">
+        <div>
+             <img src="1.png" alt="">
+        </div>
+        <div> <img src="2.png" alt=""></div>
+        <div><img src="3.png" alt=""></div>
+        <div><img src="3.png" alt=""></div>
+        <div><img src="3.png" alt=""></div>
+        <div><img src="3.png" alt=""></div>
+        <div><img src="3.png" alt=""></div>
+        <div><img src="3.png" alt=""></div>
+        <div><img src="3.png" alt=""></div>
+             <div><img src="3.png" alt=""></div>
+          </div>
+             </div>     
+    <div id="info">
+        <div>
+            <div id="inP">
+                <p>Holiday Home Investment Opportunities</p>
+            </div>
+            <div id="inmid">
+                <div>
+                    <img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/growth.svg" alt="">
+                <p>Low Cost High Appreciation</p>
+                </div>
+                <div>
+                    <img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/maids.svg" alt="">
+                <p>Professionally Managed</p>
+                </div>
+                <div>
+                    <img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/give-money.svg" alt="">
+                
+                <p>Guaranteed To Produce Income</p>
+            </div>
+                <div>
+<img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/plan.svg" alt="">
+<p>We Designed Floor Plans</p>
+                </div>
+            </div>
+            <button id="btn1">EXPLORE INVESTMETN OPPORTUNITIES</button>
+        </div>
+       
+        <div>
+            <div id="inP">
+                <p>Are You A Holiday Home Owner/Manager?
+                </p>
+            </div>
+            <div id="inmid">
+                <div>
+                    <img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/network.svg" alt="">
+                <p>Get Bookings From 100+ Websites</p>
+                </div>
+                <div>
+<img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/layout.svg" alt="">
+<p>One Dashboard - Total Control</p>
+
+                </div>
+                <div>
+<img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/flash.svg" alt="">
+<p>Instant Book Or Request To Book</p>
+                </div>
+                <div>
+<img src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/smartphone-call.svg" alt="">
+<p>Both iOS & Android App Available.</p>
+                </div>
+            </div>
+            <button id="btn">LIST YOUR PROPERTY</button>
+        </div>
+    </div> 
+    <div id="tpd"><p >Vacation Ideas</p></div>   
+    <div id="slmid" >
+         
+        <div id="leftsl" onclick="movleft()"> <button>&lt;</button></div>
+       <div  id="c1" class="chlid" >
+           <img src="2.png" alt="">
+       </div>
+       <div class="chlid" id="c2">
+           <img src="2.png" alt="">
+       </div>
+       <div class="chlid" id="c3">
+           <img src="2.png" alt="">
+       </div>
+       <div class="chlid" id="c4">
+           <img src="2.png" alt="">
+       </div>
+       <div class="chlid" id="c5">
+           <img src="2.png" alt="">
+       </div>
+       <!-- <div class="chlid" id="c6">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+       <div class="chlid" id="c7">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+       <div class="chlid" id="c8">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+       <div class="chlid" id="c9">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+       <div class="chlid" id="c10">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+
+       <div class="chlid" id="c11">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+       <div class="chlid" id="c12">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+       <div class="chlid" id="c13">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+       <div class="chlid" id="c14">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div>
+       <div class="chlid" id="c15">
+           <img src="https://image.shutterstock.com/image-photo/word-goa-on-beach-nature-260nw-604434896.jpg" alt="">
+       </div> -->
+           <div id="rgtsl" onclick="movrgt()"><button>&gt;</button></div>
+       
+           </div>    
+           <a id="sh" href="#">SHOW ALL VIDEOS</a>  
+           <div id="fotter">
+            <div id="pp">
+             <p>Holiday Homes Across The Globe</p>
+            </div>
+         <div id="ppp">
+             
+                <p>ASIA</p>
+             <p>EUROPE</p>
+                 <p>NORTH AMERICA</p>
+                <p>SOUTH AMERICA</p>
+                <p>AFRICA</p>
+                <p>OCEANIA</p>
+                 
+             
+         </div>
+       </div> 
+
+       <script>
+         
+       </script>
 </body>
+ 
+ 
 </html>
