@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+     
+    <style>
+        .parent{
+            /* background-color: red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            margin: auto;
+            column-gap: 30px;
+            
+        }
+        .child{
+        
+            width: 20%;
+            display: none;
+            /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+               justify-content: start;
+        }
+        .child img:hover{
+         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+         
+            
+        }
+        .child img{
+         width: 200px;
+         height: 150px;
+        }
+        #leftarow {
+            margin-left: 12%;
+            width: 3%;
+            display: inline-block;
+        }
+        #leftarow button,#rgtarow button{
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
+            display: inline-block;
+        }
+
+    </style>
+ </head>
+ <body onload="show()">
+    <div class="parent">
+        <div id="leftarow" onclick="moveleft()">
+            <button>&lt;</button>
+        </div>
+        <div class="child" id="c1">
+           <img src="image/1.png" alt="">
+        </div>
+        <div class="child" id="c2">
+            <img src="image/2.png" alt="">
+         </div>
+         <div class="child" id="c3">
+            <img src="image/3.png" alt="">
+         </div>
+         <div class="child" id="c4">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c5">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c6">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c7">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c8">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c9">
+            <img src="image/3.png" alt="">
+         </div>
+         <div class="child" id="c10">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c11">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c12">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c13">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c4">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c15">
+            <img src="image/3.png" alt="">
+         </div>
+         <div class="child" id="c4">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c16">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c17">
+            <img src="image/1.png" alt="">
+         </div>
+         <div class="child" id="c18">
+            <img src="image/1.png" alt="">
+         </div>
+          
+             <div id="rgtarow" onclick="movergt()">
+               <button>&gt;</button>
+            </div>
+    </div>
+ </body>
+ 
+ </html>
+<script src="slide.js"></script>
