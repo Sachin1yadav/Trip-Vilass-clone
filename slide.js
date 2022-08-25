@@ -32,4 +32,6 @@
        function topup(){
         window.location.href="sigin.html"
        } 
- 
+ function goa(){
+    window.location.href="secondpg.html"
+ }
