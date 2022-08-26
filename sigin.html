@@ -10,11 +10,23 @@
         /* body{
             background: url(https://c0.wallpaperflare.com/preview/902/404/8/blurred-background-close-up-colors-dark.jpg);
         } */
+        body{
+            margin: 0px;
+            padding: 0px;
+         }
+         #full{
+width: 100%;
+            background-image:url(image/Capture22.PNG) ;
+            border-radius: -0px;
+            height: 100vh;
+         }
+         
         h3{
             text-align: center;
             font-size: 40px; 
         }
         div{
+            background-color: white;
            /* border: 1px solid red; */
            width: 50%;
            margin: auto;
@@ -22,7 +34,7 @@
            padding: 20px;
            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
            border-radius: 10px;
-           margin-top: 40px;
+            
         }
         h2{
             text-align: center;
@@ -52,21 +64,22 @@
     </style>
 </head>
 <body>
-    
+    <div id="full">
     <div>
         <form> 
         <h2>Sign UP</h2>
         <p>Full Name</p>
-        <input type="text" placeholder="Enter you full name"  id="nm" >
+        <input type="text" placeholder="Enter you full name"  id="nm" required >
         <p>Email</p>
-        <input type="email" placeholder="Enter Email"  id="em">
+        <input type="email" placeholder="Enter Email"  id="em" required>
         <p>Password</p>
-         <input type="password"  placeholder="Enter Password" id="ps">
+         <input type="password"  placeholder="Enter Password" id="ps" required>
     
     <button id="sig">SING UP</button>
     <p>Already Have an account? <a href="log.html">LogIn</a></p>
     <!-- <a href="SINGUP.html">SignUP</a> -->
 </form>
+</div>
 </div>
 </body>
 </html>
@@ -81,9 +94,15 @@
             let name=document.querySelector("#nm").value;
     let email=document.querySelector("#em").value;
     let pass=document.querySelector("#ps").value;
-       localStorage.setItem("name1",name)
-       localStorage.setItem("ema1",email)
-       localStorage.setItem("pas1",pass)
+    //    localStorage.setItem("name1",name)
+    //    localStorage.setItem("ema1",email)
+    //    localStorage.setItem("pas1",pass)
+       let Dobj={
+        name,
+        email,
+        pass,
+       }
+       localStorage.setItem("data",JSON.stringify(Dobj))
     //    alert("Sing up successfull")
      
         alert("Sing up successfull")

@@ -31,7 +31,9 @@
         }
        function topup(){
         window.location.href="sigin.html"
+        display="popup-z index"
        } 
  function goa(){
     window.location.href="secondpg.html"
  }
+  
