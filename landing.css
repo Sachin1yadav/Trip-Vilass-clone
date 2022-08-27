@@ -837,7 +837,7 @@ margin-top: 20px;
 #sdmid{
     width: 90%;
     margin: auto;
-    height: 400px;
+    height: auto;
     /* border: 1px solid red; */
     margin-top: 30px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
@@ -867,12 +867,13 @@ color: black;
  #mm{
     padding: 10px;
     width: 100%;
-    height:270px;
+    /* height:270px; */
     /* border: 1px dotted black; */
     margin: auto;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4,1fr);
+    height: auto;
  }
  #mm>div{
     width: 100%;
@@ -904,7 +905,7 @@ color: 484848;
 #slpic{
     /* border: 1px dotted red; */
     width: 90%;
-    height: 390px;
+    height: auto;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -918,13 +919,15 @@ margin-top: 30px;
 #pic1{
     /* border: 1px solid green; */
     width: 100%;
-    height: 350px;
+    height: auto;
     margin: auto;
-    display: flex;
+    display: grid;
     gap: 30px;
-    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
    
 }
+
 #pic1>div{
     width: 100%;
     height: 350px;
@@ -1010,10 +1013,7 @@ margin-bottom: 15px;
 #lat>p{
     text-align: justify;
 }
-#lat>p:hover{
-   font-size:16.5px ;
-    
-}
+ 
 #faq{
     /* border: 1px solid red; */
     width: 90%;
@@ -1195,3 +1195,123 @@ color: 484848;
     margin-top: -0px;
      border: 1px dotted gray;
 }
+@media all and (min-width: 400px) and (max-width: 768px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    #pic1{
+        /* border: 1px solid green; */
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+       
+    }
+    
+    #lat{
+        width: auto;
+        height: auto;
+        margin: 30px;
+    }
+    #sdmid{
+        width: auto;
+        margin: auto;
+        height: auto;
+        /* border: 1px solid red; */
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+    
+    #sdmid1{
+        width: 100%;
+        height: 40px;
+        /* border: 1px solid black; */
+        display: flex;
+      column-gap: 20px;
+    }
+  
+     
+     #mm{
+        
+        margin: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+        height: auto;
+     }
+     #sd1div{
+        width: 70%;
+        height: auto;
+     }
+     #faq{
+        margin: 30px;
+        height: auto;
+        width: auto;
+     }
+    }
+    @media all and (min-width: 280px) and (max-width: 400px) {
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #pic1{
+            /* border: 1px solid green; */
+            width: 100%;
+            height: auto;
+            margin: auto;
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: auto;
+           
+        }
+        
+        #lat{
+            width: auto;
+            height: auto;
+            margin: 20px;
+        }
+        #sdmid{
+            width: auto;
+            margin: auto;
+            height: auto;
+            /* border: 1px solid red; */
+            margin-top: 30px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        }
+        
+        #sdmid1{
+            width: 100%;
+            height: auto;
+            /* border: 1px solid black; */
+            display: flex;
+          column-gap: 20px;
+        }
+      
+         
+         #mm{
+            /* padding: 10px;
+            width: 100%; */
+            /* height:270px; */
+            /* border: 1px dotted black; */
+            margin: auto;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(2,1fr);
+            height: auto;
+         }
+         #sd1div{
+            width: 70%;
+            height: auto;
+         }
+         #faq{
+            margin: 20px;
+            height: auto;
+            width: auto;
+         }
+        }
+      

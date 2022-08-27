@@ -33,7 +33,21 @@
         window.location.href="sigin.html"
         display="popup-z index"
        } 
- function goa(){
-    window.location.href="secondpg.html"
+ function searchHere(){
+    let ma=fr.value;
+     if(ma=="goa"){
+        window.location.href="secondpg.html"
+     }
+     else if(ma=="lonavala"){
+        window.location.href="lonavala.html"
+     }else if(ma==""){
+        alert("Please Put Your Location" )
+     }
+     else{
+        alert("Soryy Till Now We Are Not in "+ma)
+     }
+    //   window.location.href="secondpg.html"
  }
   
+//  let ma=fr.value;
+//  console.log(ma)
