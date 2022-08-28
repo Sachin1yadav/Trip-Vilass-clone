@@ -233,9 +233,6 @@ color: 333333;
     /* margin-right:  -20px; */
    size: 100px;
  }
- 
-  
- 
  .parent{
     /* background-color: red; */
     display: flex;
@@ -290,7 +287,6 @@ width: 100%;
  
  
 *{
- 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -323,27 +319,7 @@ justify-content: space-between;
      height: 25.7px;
        align-items: center;
     }
- 
-     #mid {
-        /* border: 1px solid red; */
-         width: 100vw;
-         height: 425px;
-         /* position: relative;
-        background-image: url('https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg');
-         */
-     }
-   #mid>div{
-    background-image: url('https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg');
-width: 100%;
-height: 100%;  
-filter: brightness(50%);
-}
-#mid>div>h1{
-    color: white;
-}
- 
       
- 
   #tpd{
     font-size: 22.25px;
     font-weight: 300;
@@ -398,7 +374,6 @@ margin-top: 40px;
     cursor: pointer;
     font-size: 15px;
 }
- 
 #us:hover{
  cursor: pointer;
 }
@@ -796,7 +771,6 @@ margin-top: 40px;
     cursor: pointer;
     font-size: 15px;
 }
- 
 #sd1div{
     /* border: 1px solid red; */
     width: 90%;
@@ -804,16 +778,13 @@ margin-top: 40px;
     margin: auto;
     margin-top: 50px;
     padding: 30px;
- 
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     
     
 }
 
 #sd1div:hover{
     box-shadow:rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
- 
 }
 #sdp{
     /* border: 1px solid green; */
@@ -821,17 +792,12 @@ margin-top: 40px;
     height: auto;
     text-align: center;
       font-family: ProximaNovaLight, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
- ;
-       
+    ;
        font-size: 15px;
-        
        color: 000000;
-
 }
  
- 
 
- 
 #sdpp{
     /* border: 1px solid green; */
     width: 100%;
@@ -871,20 +837,14 @@ margin-top: 20px;
 #sdmid{
     width: 90%;
     margin: auto;
- 
-    height: 400px;
- 
     height: auto;
- 
     /* border: 1px solid red; */
     margin-top: 30px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
- 
 #sdmid:hover{
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
- 
 #sdmid1{
     width: 100%;
     height: 40px;
@@ -907,19 +867,13 @@ color: black;
  #mm{
     padding: 10px;
     width: 100%;
- 
-    height:270px;
- 
     /* height:270px; */
- 
     /* border: 1px dotted black; */
     margin: auto;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4,1fr);
- 
     height: auto;
- 
  }
  #mm>div{
     width: 100%;
@@ -951,14 +905,7 @@ color: 484848;
 #slpic{
     /* border: 1px dotted red; */
     width: 90%;
-    height: 390px;
- 
- 
- 
-    /* border: 1px dotted red; */
-    width: 90%;
     height: auto;
- 
     margin: auto;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -972,24 +919,15 @@ margin-top: 30px;
 #pic1{
     /* border: 1px solid green; */
     width: 100%;
- 
-    height: 350px;
- 
     height: auto;
- 
     margin: auto;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(4,1fr);
- 
-   
- 
- 
     grid-template-rows: auto;
    
 }
 
- 
 #pic1>div{
     width: 100%;
     height: 350px;
@@ -1103,7 +1041,6 @@ font-family: ProximaNova, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     margin-bottom: 10px;
     color: rgb(102,102,102);
     font-family: ProximaNova, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
- 
 }
 #sdmid2{
     width: 100%;
@@ -1378,4 +1315,3 @@ color: 484848;
          }
         }
       
- 
