@@ -233,9 +233,9 @@ color: 333333;
     /* margin-right:  -20px; */
    size: 100px;
  }
-<<<<<<< HEAD
- *{
-=======
+ 
+  
+ 
  .parent{
     /* background-color: red; */
     display: flex;
@@ -290,7 +290,7 @@ width: 100%;
  
  
 *{
->>>>>>> day-5
+ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -323,7 +323,7 @@ justify-content: space-between;
      height: 25.7px;
        align-items: center;
     }
-<<<<<<< HEAD
+ 
      #mid {
         /* border: 1px solid red; */
          width: 100vw;
@@ -341,9 +341,9 @@ filter: brightness(50%);
 #mid>div>h1{
     color: white;
 }
-=======
+ 
       
->>>>>>> day-5
+ 
   #tpd{
     font-size: 22.25px;
     font-weight: 300;
@@ -398,8 +398,7 @@ margin-top: 40px;
     cursor: pointer;
     font-size: 15px;
 }
-<<<<<<< HEAD
-=======
+ 
 #us:hover{
  cursor: pointer;
 }
@@ -797,7 +796,7 @@ margin-top: 40px;
     cursor: pointer;
     font-size: 15px;
 }
->>>>>>> day-5
+ 
 #sd1div{
     /* border: 1px solid red; */
     width: 90%;
@@ -805,17 +804,16 @@ margin-top: 40px;
     margin: auto;
     margin-top: 50px;
     padding: 30px;
-<<<<<<< HEAD
+ 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-=======
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     
     
 }
 
 #sd1div:hover{
     box-shadow:rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
->>>>>>> day-5
+ 
 }
 #sdp{
     /* border: 1px solid green; */
@@ -823,21 +821,17 @@ margin-top: 40px;
     height: auto;
     text-align: center;
       font-family: ProximaNovaLight, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
-    ;
-<<<<<<< HEAD
+ ;
        
        font-size: 15px;
         
        color: 000000;
 
 }
-=======
-       font-size: 15px;
-       color: 000000;
-}
+ 
  
 
->>>>>>> day-5
+ 
 #sdpp{
     /* border: 1px solid green; */
     width: 100%;
@@ -877,21 +871,20 @@ margin-top: 20px;
 #sdmid{
     width: 90%;
     margin: auto;
-<<<<<<< HEAD
+ 
     height: 400px;
-=======
+ 
     height: auto;
->>>>>>> day-5
+ 
     /* border: 1px solid red; */
     margin-top: 30px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
-<<<<<<< HEAD
-=======
+ 
 #sdmid:hover{
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
->>>>>>> day-5
+ 
 #sdmid1{
     width: 100%;
     height: 40px;
@@ -914,20 +907,19 @@ color: black;
  #mm{
     padding: 10px;
     width: 100%;
-<<<<<<< HEAD
+ 
     height:270px;
-=======
+ 
     /* height:270px; */
->>>>>>> day-5
+ 
     /* border: 1px dotted black; */
     margin: auto;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4,1fr);
-<<<<<<< HEAD
-=======
+ 
     height: auto;
->>>>>>> day-5
+ 
  }
  #mm>div{
     width: 100%;
@@ -955,18 +947,18 @@ color: 484848;
     color: black;
 
 }
-<<<<<<< HEAD
-#slpic{
-    /* border: 1px dotted red; */
-    width: 90%;
-    height: 390px;
-=======
  
 #slpic{
     /* border: 1px dotted red; */
     width: 90%;
+    height: 390px;
+ 
+ 
+ 
+    /* border: 1px dotted red; */
+    width: 90%;
     height: auto;
->>>>>>> day-5
+ 
     margin: auto;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -980,24 +972,24 @@ margin-top: 30px;
 #pic1{
     /* border: 1px solid green; */
     width: 100%;
-<<<<<<< HEAD
+ 
     height: 350px;
-=======
+ 
     height: auto;
->>>>>>> day-5
+ 
     margin: auto;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(4,1fr);
-<<<<<<< HEAD
+ 
    
-}
-=======
+ 
+ 
     grid-template-rows: auto;
    
 }
 
->>>>>>> day-5
+ 
 #pic1>div{
     width: 100%;
     height: 350px;
@@ -1083,10 +1075,7 @@ margin-bottom: 15px;
 #lat>p{
     text-align: justify;
 }
-<<<<<<< HEAD
-=======
  
->>>>>>> day-5
 #faq{
     /* border: 1px solid red; */
     width: 90%;
@@ -1114,9 +1103,7 @@ font-family: ProximaNova, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     margin-bottom: 10px;
     color: rgb(102,102,102);
     font-family: ProximaNova, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-<<<<<<< HEAD
-}
-=======
+ 
 }
 #sdmid2{
     width: 100%;
@@ -1391,4 +1378,4 @@ color: 484848;
          }
         }
       
->>>>>>> day-5
+ 
