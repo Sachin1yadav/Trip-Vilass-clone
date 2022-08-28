@@ -48,6 +48,8 @@
      }
     //   window.location.href="secondpg.html"
  }
-  
+  function lon(){
+    window.location.href="lonavala.html"
+  }
 //  let ma=fr.value;
 //  console.log(ma)
