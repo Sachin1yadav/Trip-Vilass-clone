@@ -1,11 +1,6 @@
-# glossy-bed-7436
-this is my first project
-Hii..
-I am sachin ..
-TOday is 28/08/2022. and now my project is done to deploye .
-i was faced many issu during this project ..
-must of issu was from Git and merge and pull these  many thing.
-I do not know till now that my git is done or not .
-byt i tried it was woking.
+# Home Page
+![image](https://user-images.githubusercontent.com/107467689/222060449-d40c5c2b-b4a9-4249-932b-c32a51a0596c.png)
+  you can check hotel accoring to the location after clicking on the IMG
+![image](https://user-images.githubusercontent.com/107467689/222060622-8ae7d97c-764d-4774-a3ab-2614536aa661.png)
+![image](https://user-images.githubusercontent.com/107467689/222060746-b775bc8e-d002-4b92-aa8b-f624363c6ca1.png)
 
-THANKYOU..
